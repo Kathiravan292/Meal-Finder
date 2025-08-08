@@ -1,5 +1,4 @@
 
-
 const categoryList = document.getElementById("categoryList");
 const allCategories = document.getElementById("allCategories");
 const mealResults = document.getElementById("mealResults");
@@ -203,3 +202,4 @@ async function showMealDetailsView(mealId) {
 
   mealResults.scrollIntoView({ behavior: "smooth" });
 }
+
